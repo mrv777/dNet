@@ -4,7 +4,6 @@ var main_nodes = ["node1.ardor.tools","node2.ardor.tools","node3.ardor.tools","n
 var node = "testnode7.ardor.tools";
 
 function restore_options() {
-  // Use default value custom_node = '' and random_node = true.
   chrome.storage.sync.get({
     custom_node: '',
     mainnet: true,
@@ -47,7 +46,7 @@ function get_page() {
 								xhr_html.open('GET', 'https://'+node+'/nxt?requestType=getTaggedData&chain=2&transactionFullHash='+webpage_files[0], true);
 								xhr_html.responseType = 'json';
 								xhr_html.onload = function(e) {
-									document.body.innerHTML += this.response['data'];
+									document.body.innerHTML = this.response['data'];
 								};
 								xhr_html.send();
 
