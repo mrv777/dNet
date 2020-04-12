@@ -4,6 +4,8 @@ Your gateway to the decentralized internet hosted on the Ardor blockchain.
 
 Once installed you can click the addon icon to load the starter page, or navigate to any page on the blockchain using the format http://{alias}.ardor/
 
+Available in the [Google Chrome](https://chrome.google.com/webstore/detail/dnet/hfadghcjdnibmkeeoaffmhcgdgnlaohd?hl=en) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/dnet/) stores
+
 ## Image Recommendation
 
 You can easily integrate images into your HTML file using base64.
