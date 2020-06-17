@@ -63,11 +63,11 @@ function get_page() {
 									xhr_css.send();
 								}
 							} else {
-								document.body.innerHTML += "<h1>Could not locate website</h1>";
+								document.body.innerHTML = "<h1>Could not locate website</h1>";
 							}
 						};
         } else {
-           document.body.innerHTML += "<h1>Could not communicate with node</h1>";
+           document.body.innerHTML = "<h1>Could not communicate with node</h1>";
         }
     } 
 	}
